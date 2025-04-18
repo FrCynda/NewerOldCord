@@ -653,6 +653,8 @@ body {
 	.wrapper_cc5dd2,
 	.childWrapper__6e9f8,
 	.icon__6e9f8 {
+		position: relative;
+		left: 2px;
 		width: 50px;
 		height: 50px;
 	}
@@ -860,6 +862,10 @@ body {
 	    margin: 0 8px;
 	    padding: 2px 8px;
 	    min-height: unset;
+	}
+	/* centering server selector pill */
+	.pill_e5445c {
+		top: -3px;
 	}
 	.searchBar__35e86 {
 		border-bottom: unset;
@@ -1545,7 +1551,7 @@ body {
 		}
 	}
 	.bar_c38106 .trailing_c38106 {
-		top: 51px;
+		top: 54px;
 		gap: 8px;
 		z-index: 102;
 	}
@@ -1635,7 +1641,7 @@ body {
     width: px;
     background: var(--background-tertiary);
 	.scroller_ef3116 {
-		padding-top: 2px;
+		padding-top: 6px;
 	    > div[style]:not([class]) {
 	        min-height: 50px;
 		}
@@ -1644,7 +1650,8 @@ body {
 		}
     }
     .guildSeparator__252b6 {
-      height: 2px;
+		margin-bottom: 8px;
+      	height: 2px;
     }
     .wrapper__48112 {
 		.expandedFolderBackground__48112 {
@@ -1687,6 +1694,8 @@ body {
 	}
 	.listItem__650eb:has(.circleIcon__5bc7e) {
 		.circleIconButton__5bc7e {
+			position: relative;
+			left: 2px;
 			border-radius: 50%;
 			width: 48px;
 			height: 48px;
@@ -1948,4 +1957,3 @@ div.checkbox_f525d3.box_f525d3.checked_f525d3 {
         margin-right: px;
     }
 }
-
