@@ -59,9 +59,9 @@
 
 body {
 	--text-muted: #72767d;
-	--font-primary: gg sans;
-	--font-display: gg sans !important;
-	--font-headline: gg sans;
+	--font-primary: OnlyHebrew, gg sans;
+	--font-display: OnlyHebrew, gg sans !important;
+	--font-headline: OnlyHebrew, gg sans;
 	--blurple: #5867ea;
 	--blurple-inverted: #ffffff;
 	--text-brand: var(--blurple) ;
@@ -123,6 +123,12 @@ body {
     font-weight: 700;
     font-style: italic;
     src: url(https://github.com/GreenMonster362905/gg-sans-font/blob/main/ggsansbolditalic.woff2) format("woff2");
+}
+/* Hebrew fix (change to Arial) */
+@font-face {
+  font-family: 'OnlyHebrew';
+  src: local('Arial');
+  unicode-range: U+0590-05FF;
 }
 
 	.radioBar__001a7 .radioIndicatorGroup__001a7:before {
