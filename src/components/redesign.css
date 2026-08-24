@@ -231,6 +231,7 @@ html.visual-refresh {
 		.iconContainerLeft_c1e9c4 {
 			order: 1;
 			margin-inline: unset;
+			margin-left: 8px;
 		}
 		&:has(> .iconContainer_c1e9c4 > :is(.caret_c1e9c4, .checkboxOption__714a9)) .iconContainerLeft_c1e9c4 {
 			display: none;
