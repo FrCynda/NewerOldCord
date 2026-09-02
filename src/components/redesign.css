@@ -69,10 +69,6 @@ html.platform-osx .title_c38106 {
 :is(html.platform-linux, html.platform-win) .trailing_c38106 {
 	margin-top: 6px !important;
 }
-/* somehow, this seems to be exclusive to web-based clients */
-html.platform-web .attachWrapper__0923f { 
-	bottom: 2px; 
-}
 
 #app-mount .h5_b717a1.eyebrow_b717a1 {
 	text-transform: uppercase !important;
@@ -1437,6 +1433,7 @@ html.visual-refresh {
 			border-radius: 3px;
 		}
 		.attachWrapper__0923f {
+			bottom: 2px;
 			padding: 6px 0px 6px 6px;
 			position: relative;
 		}
