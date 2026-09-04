@@ -1,0 +1,241 @@
+/* ========================================================================
+   POPOUTS / SEARCH / PROFILES / TABS
+   ======================================================================== */
+
+/* Menu & Overlays */
+.inner_c0bea0 { background-color: #111214; }
+.menuOverlay_ce8328 { background-color: #ffffff17 !important; }
+.searchResult__02a39 { border: solid 1px rgba(255, 255, 255, 0) !important; }
+
+/* Profile Bottom Message Box */
+.inlineContainer__74017 .themedBackground__74017 {
+    background: #ffffff17 !important;
+}
+
+/* Report/Delete Button Danger Color */
+.colorDanger_c1e9c4.focused_c1e9c4 {
+    color: var(--white);
+    background-color: var(--red);
+}
+
+/* OP Tag */
+.botTagOP__82f07 {
+    color: var(--white) !important;
+    margin-top: .2em !important;
+}
+
+/* Pinned Messages */
+.header__45690, .messagesPopout__45690 {
+    background: var(--scrollbar-auto-track) !important;
+}
+
+/* Inbox Tab */
+.channelHeader__35a7e { background-color: transparent !important; }
+.resultsGroup__56fec { background-color: var(--scrollbar-thin-thumb) !important; }
+
+.scroller__2692d,
+.container_a54d1d,
+.Container__4a7f0,
+.emptyScroller__2692d,
+.emptyContainer_a54d1d,
+.emptyContainer__4a7f0 {
+    background-color: rgb(44, 46, 51) !important;
+}
+
+/* Search Bar Fixes */
+.searchAnswer_bd8186, .searchFilter_bd8186 {
+    transform: translateY(0px) !important;
+    height: 20px !important;
+    font-size: 1em !important;
+}
+.search__97492 .DraftEditor-root .public-DraftStyleDefault-block span {
+    display: inline-block;
+    transform: translateY(-0.5px) !important;
+}
+
+/* Tab Styling */
+.tab_ab6641, .selected_b3f026 {
+    background: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+.tab_ab6641 {
+    position: relative;
+    overflow: visible !important;
+    z-index: 0;
+}
+.tab_ab6641::before {
+    content: "";
+    position: absolute;
+    top: 46px;
+    left: -10px;
+    right: -10px;
+    height: 1px;
+    background: var(--blurple);
+    z-index: -1;
+    opacity: 0;
+}
+.tab_ab6641.selected_b3f026::before {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out !important;
+}
+
+/* Profile Card */
+.root__24502, .outer_c0bea0 {
+    background-color: transparent !important;
+}
+/* Mentions Tab Server Card */
+.channelHeader__35a7e {
+    background-color: var(--background-secondary) !important;
+}
+svg.icon__2ea32:nth-of-type(3) path:nth-of-type(2) {
+    color: red;
+}
+
+/* =========================================================
+   DISCORD SEARCH FILTERS POPOUT CUSTOM THEME
+   ========================================================= */
+
+/* Background color of search menu container */
+.container__16eb0,
+[class*="container_"][role="listbox"] {
+    background-color: #212326 !important;
+}
+
+/* Lighter background on hover and keyboard navigation */
+.itemContainer__971b5:hover,
+.itemContainer__971b5[aria-selected="true"],
+[class*="itemContainer_"]:hover,
+[class*="itemContainer_"][aria-selected="true"] {
+    background-color: #313439 !important;
+    border-radius: 4px;
+}
+
+/* Sublabel text styling */
+.itemContainer__971b5 [style*="color: var(--text-muted)"],
+[class*="itemContainer_"] [style*="color: var(--text-muted)"] {
+    color: var(--text-subtle) !important;
+}
+
+.f1c5c9823fbd3ef8-container {
+    padding: 10px 0;
+    width: 320px;
+    border-radius: 3px;
+    box-shadow: var(--shadow-border), var(--shadow-high);
+    border: none;
+    background-color: var(--background-floating);
+}
+
+._1bb324526a52affb-groupWrapper {
+    gap: 0;
+}
+
+[aria-labelledby="Filters-header"] ._1bb324526a52affb-itemContainer:last-child {
+    display: none;
+}
+
+._1bb324526a52affb-itemContainer {
+    position: relative;
+    font-size: 16px;
+    margin: 0 10px;
+    padding: 0 10px;
+    height: 34px;
+    border-radius: 3px;
+    cursor: pointer;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+}
+
+._1bb324526a52affb-item {
+    padding: 0;
+    mask-image: none;
+}
+
+._1bb324526a52affb-itemIcon:not(._44b0c28be7879b7b-wrapper) {
+    display: none;
+}
+
+._1bb324526a52affb-itemIcon:not(._44b0c28be7879b7b-wrapper)+div > .cf48127484dbde85-text-sm\/medium {
+    display: none;
+}
+
+._1bb324526a52affb-itemIcon:not(._44b0c28be7879b7b-wrapper)+div > ._1bb324526a52affb-labelWithElements {
+    display: none;
+}
+
+._1bb324526a52affb-filterSublabelTextContainer {
+    gap: 0;
+}
+
+._1bb324526a52affb-filterSublabelTextContainer .cf48127484dbde85-text-sm\/semibold {
+    color: var(--interactive-normal);
+    font-size: inherit;
+    margin: 0 4px 0 0;
+    line-height: unset;
+}
+
+._1bb324526a52affb-filterSublabelTextContainer .cf48127484dbde85-text-sm\/medium {
+    color: var(--text-muted);
+    font-size: 16px;
+    line-height: unset;
+    margin: 0 4px 0 2px;
+}
+
+._1bb324526a52affb-groupHeader {
+    font-weight: 800;
+    letter-spacing: .02em;
+    font-family: var(--font-display);
+    color: var(--header-secondary);
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 5px 20px 10px;
+}
+
+/* =========================================================
+   MUTUAL FRIENDS / SERVERS LIST OVERFLOW FIX
+   ========================================================= */
+
+/* 1. Restrict container bounds and subtract profile modal offset */
+.user-profile-modal-v2 .container__37bfc,
+.container__37bfc {
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100% - 270px) !important;
+    box-sizing: border-box !important;
+}
+
+/* 2. Force the tab panel to fill available space without stretching modal */
+.tabBarPanel__37bfc {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    min-height: 0 !important;
+    overflow: hidden;
+}
+
+/* 3. Ensure the list scroller stays strictly within limits */
+.tabPanelScroller__37bfc {
+    flex: 1 1 auto;
+    overflow-y: auto !important;
+    overflow-x: hidden;
+    padding-right: 4px;
+}
+
+/* GIF/Emote Picker Height */
+.scrollable-container {
+    max-height: 80vh;
+    overflow-y: auto;
+    transition: max-height 0.3s ease;
+}
+.scrollable-container.expanded { max-height: none; }
+.results__2dc39 { height: 1000px !important; }
+.contentWrapper__08434 {
+    height: 1000px !important;
+    transform: translateY(-440px) !important;
+}
+
+._084343c4f11eaaab-contentWrapper {
+    height: 55pc;
+    margin-top: -400px;
+}

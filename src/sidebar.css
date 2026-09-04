@@ -1,0 +1,100 @@
+/* ========================================================================
+   SIDEBAR / SERVERS / MEMBERS
+   ======================================================================== */
+
+/* Hide sidebar in fullscreen stream */
+.sidebar_c48ade.hidden_c48ade {
+    position: absolute !important;
+}
+
+/* Layout Adjustments */
+.panels_c48ade {
+    width: 241px !important;
+    border: none !important;
+}
+.base_c48ade .sidebar_c48ade > .sidebarList_c48ade {
+    width: 240px !important;
+}
+
+/* Channel Sidebar Adjustment */
+div.sidebar_c48ade.theme-dark.images-dark {
+    transform: translate(1px);
+}
+
+/* Sidebar Buttons & Items */
+.button__201d5:not(.cta_a3a802, .colorRed__201d5) {
+    border: unset;
+}
+.item_b3f026 {
+    transition: none !important;
+}
+:is(.sidebar__23e6b) .selected_b3f026.item_b3f026 {
+    background: var(--background-modifier-selected) !important;
+}
+:is(.sidebar__23e6b) .side_b3f026 .themed_b3f026.item_b3f026:hover:not(.disabled_b3f026) {
+    background-color: var(--background-modifier-hover);
+}
+:is(.sidebar__23e6b) .selected_b3f026.item_b3f026:hover {
+    color: var(--text-primary);
+}
+.topPill_b3f026 .item_b3f026 {
+    border-radius: 4px;
+    margin: 0 8px;
+    padding: 2px 8px;
+    min-height: unset;
+}
+.searchBar__35e86 {
+    border-bottom: unset;
+    box-shadow: var(--elevation-low);
+}
+
+/* Add Server / Discover Buttons */
+.circleIconButton__5bc7e {
+    width: 50px !important;
+    height: 50px !important;
+    transform: translate(0px, 6px);
+}
+.discoveryIcon_ef3116 {
+    transform: translate(0px, 9px);
+}
+
+/* Forum Fixes */
+.visual-refresh .mainCard_f369db {
+    background: var(--bg-overlay-4, #393c41);
+    border: 1px solid var(--border-subtle);
+}
+.visual-refresh .container_faa96b.isOpen_faa96b {
+    background-color: #393c41;
+}
+.visual-refresh .container_faa96b:hover {
+    background-color: #393c41;
+}
+
+/* New Channel Icons */
+.newChannel__599fa, .channelInfo_c69b6d {
+    background-color: var(--blurple) !important;
+    color: white;
+    border-radius: var(--radius-round) !important;
+}
+
+.stack_dbd263 { background: unset; }
+
+/* User List */
+.container_c8ffbb { border-left: none !important; }
+
+._5e434347c823b592-activityPanel {
+    width: 216px;
+}
+
+.container__37e49 {
+    background-color: #232428;
+}
+
+.itemsContainer_ef3116 {
+    background-color: #191a1d;
+}
+
+.layer__960e4.baseLayer__960e4,
+.scroller__e6b769 {
+    background-color: #191A1D !important;
+}

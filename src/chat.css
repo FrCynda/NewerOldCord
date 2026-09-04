@@ -1,0 +1,110 @@
+/* ========================================================================
+   CHAT AREA
+   ======================================================================== */
+
+/* Radio Buttons */
+.radioBar__001a7 .radioIndicatorGroup__001a7:before {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-2 -2 28 28'%3E%3Cpath d='M3 0C1.34326 0 0 1.34277 0 3V21C0 22.6572 1.34326 24 3 24H21C22.6567 24 24 22.6572 24 21V3C24 1.34277 22.6567 0 21 0H3ZM3 1C1.89551 1 1 1.89551 1 3V21C1 22.1045 1.89551 23 3 23H21C22.1045 23 23 22.1045 23 21V3C23 1.89551 22.1045 1 21 1H3Z' stroke='' stroke-width='' fill='%2372767d' fill-rule='evenodd' clip-rule='evenodd'/%3E%3C/svg%3E");
+    position: relative;
+}
+
+/* Chat Box Area */
+.scrollerSpacer__36d07 { height: 30px; }
+.themedBackground__74017 { background: none; }
+
+.formWithLoadedChatInput_f75fb0 .channelTextArea_f75fb0 {
+    background: var(--background-primary) !important;
+}
+.channelTextArea__74017 {
+    border: unset;
+    border-radius: 4px;
+}
+.separator__49fc1 {
+    box-shadow: 0 1px 0 0 hsl(240 calc(1 * 5.263%) 7.451% / .3), 0 1px 2px 0 hsl(240 calc(1 * 5.263%) 7.451% / .3);
+}
+.header__49fc1 {
+    padding: var(--modal-vertical-padding) var(--modal-horizontal-padding);
+}
+.autocompleteAttached__6b0e0 {
+    left: 0;
+    right: 0;
+}
+.cooldownText_b21699 { color: var(--font-primary) !important; }
+
+.base_b88801 {
+    left: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    resize: none;
+    align-items: center;
+    color: var(--text-normal);
+}
+
+/* Jump to Present Bar */
+.jumpToPresentBar__0f481 {
+    bottom: 0;
+    border-radius: 8px 8px 0 0;
+    background-color: var(--background-accent);
+    opacity: .95 !important;
+    padding-bottom: 4px !important;
+    color: var(--white-500);
+}
+.jumpToPresentBar__0f481 .barButtonBase__0f481 {
+    padding-left: unset;
+    padding: 0 12px;
+}
+.jumpToPresentBar__0f481 .button__201d5 {
+    flex: 0 0 auto;
+    font-weight: 600;
+    position: relative;
+    background: unset;
+    padding-bottom: 6px;
+}
+.jumpToPresentBar__0f481 .button__201d5:hover {
+    background-color: unset !important;
+}
+.jumpToPresentBar__0f481 .button__201d5 .contents__201d5:after {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 16'%3E%3Cpath d='M7 10L12 15 17 10'%3E%3C/path%3E%3C/svg%3E");
+    margin-left: 8px;
+}
+
+/* Message Bar Color */
+.scrollableContainer__74017 {
+    background-color: rgba(255, 255, 255, 0.048);
+}
+
+.replyBar__841c8, .threadSuggestionBar__841c8 {
+    background-color: #282b2e;
+    border-bottom: none;
+    cursor: pointer;
+}
+
+/* Icons & Tags */
+.circleIcon__5bc7e { color: var(--green); }
+
+/* Guild/Clan Tags */
+.text-xs\/semibold_cf4812 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--interactive-normal);
+}
+
+/* "Today at" Timestamp formatting */
+:is(.timestampInline_c19a55) time[aria-label^="Today at"] {
+    visibility: hidden;
+}
+:is(.timestampInline_c19a55) time[aria-label^="Today at"]:before {
+    content: attr(aria-label);
+    visibility: visible;
+}
+
+/* Embeds */
+.grid__623de {
+    background-color: #2a2c30;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+/* Spoiler Text */
+.obscureWarning__54ab5 { color: white; }

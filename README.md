@@ -51,10 +51,11 @@ You can use this theme with **BetterDiscord**, **Vencord**, or any modded client
 
 ---
 
-### ✅ BetterDiscord
+### ✅ BetterDiscord (recommended)
 
-1. [Download `NewerOldCord.css`](https://raw.githubusercontent.com/FrCynda/NewerOldCord/refs/heads/main/src/main.css)  
-   (Right-click > "Save As")
+1. [Download `NewerOldCord.theme.css`](https://frcynda.github.io/NewerOldCord/NewerOldCord.theme.css)
+   (Right-click > "Save As") – uses GitHub Pages (`text/css`) so remote `@import` loads correctly.
+   Legacy alt: [Download `NewerOldCord.css`](https://raw.githubusercontent.com/FrCynda/NewerOldCord/refs/heads/main/NewerOldCord.css)
 2. Move it to your themes folder:  
    - **Windows**: `%appdata%/BetterDiscord/themes`  
    - **Linux**: `~/.config/BetterDiscord/themes`
@@ -65,14 +66,19 @@ You can use this theme with **BetterDiscord**, **Vencord**, or any modded client
 ### ✅ Vencord
 
 #### Local Installation:
-1. [Download `NewerOldCord.css`](https://raw.githubusercontent.com/FrCynda/NewerOldCord/refs/heads/main/src/main.css)
+1. [Download `NewerOldCord.theme.css`](https://frcynda.github.io/NewerOldCord/NewerOldCord.theme.css)
 2. In Discord: `Settings > Vencord > Themes > Open Theme Folder`
 3. Place the file in that folder and enable it.
 
-#### Online Method:
+#### Online Method (recommended):
 1. Go to `Settings > Vencord > Themes`
 2. Click “Add Theme” and paste this URL:
 
+```
+https://frcynda.github.io/NewerOldCord/src/main.css
+```
+
+Legacy alt (kept working):
 ```
 https://raw.githubusercontent.com/FrCynda/NewerOldCord/refs/heads/main/src/main.css
 ```
@@ -81,7 +87,13 @@ https://raw.githubusercontent.com/FrCynda/NewerOldCord/refs/heads/main/src/main.
 
 ### 🎛 Manual Import via CSS
 
-You can also import it directly with:
+Recommended (GitHub Pages, works in BetterDiscord + Vencord):
+
+```css
+@import url("https://frcynda.github.io/NewerOldCord/src/main.css");
+```
+
+Legacy alt (kept working, Vencord / direct download):
 
 ```css
 @import url("https://raw.githubusercontent.com/FrCynda/NewerOldCord/refs/heads/main/src/main.css");

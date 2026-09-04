@@ -1,0 +1,62 @@
+/* ========================================================================
+   ELEMENT HIDING & CLEANUP / NAMEPLATE / MISC
+   ======================================================================== */
+
+/* Hide server icon at the top */
+.title_edbb22 { display: none !important; }
+
+/* Hide the app launcher icon in the typing bar */
+.app-launcher-entrypoint { display: none !important; }
+
+/* ========================================================================
+   NAMEPLATE FIX
+   ======================================================================== */
+
+/* Hide the nameplate image/video container */
+.childContainer__91a9d.nameplated__91a9d .container__4bbc6 {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
+/* Reset the parent container padding so it looks like a normal profile */
+.childContainer__91a9d.nameplated__91a9d {
+    border-radius: inherit !important;
+    padding-block: 0 !important;
+    padding-inline: var(--space-xs) 8px !important;
+    background: transparent !important;
+}
+
+/* Remove unused chatbar buttons */
+._24af7f4d0326ba4f-noHover._24af7f4d0326ba4f-button._740174f3d6a2c8fe-button {
+    display: none !important;
+}
+
+/* Hide the bookmark button */
+.reactionBtn__23977.bookmarkBtn__23977 {
+    display: none !important;
+}
+
+/* ========================================================================
+   PROFILE MODAL MENU (Refactored) - DISABLED, kept for reference
+   ======================================================================== */
+/*
+.user-profile-modal-v2 .inner_c0bea0 {
+    padding: 0px !important;
+    gap: 0px !important;
+    flex-direction: column !important;
+    container-type: size;
+}
+.user-profile-modal-v2 .profile__9c3be {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.user-profile-modal-v2 .selected_b3f026 {
+    color: var(--text-secondary) !important;
+}
+.user-profile-modal-v2 .selected_b3f026::after {
+    display: none;
+}
+*/

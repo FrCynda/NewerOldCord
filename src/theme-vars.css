@@ -1,0 +1,88 @@
+/* ========================================================================
+   THEME VARIABLES
+   ======================================================================== */
+.theme-dark:not(html.custom-theme-background, :has(#clientThemeVars)) {
+    --message-background-hover: var(--background-message-hover);
+    --message-mentioned-background-default: var(--background-mentioned);
+    --message-mentioned-background-hover: var(--background-mentioned-hover);
+    --message-automod-background-default: var(--background-message-automod);
+    --message-automod-background-hover: var(--background-message-automod-hover);
+    --message-highlight-background-default: var(--background-message-highlight);
+    --message-highlight-background-hover: var(--background-message-highlight-hover);
+    --background-base-low: #232428;
+    --background-base-lower: #313338;
+    --background-base-lowest: #2b2d31;
+    --bg-base-tertiary: #1e1f22;
+    --custom-channel-members-bg: #2b2d31;
+    --background-mod-subtle: #2b2d31;
+    --background: #5867ea;
+    --text-link: #00a2ff;
+    --bg-brand: #5867ea;
+    --button-filled-brand-background: #5867ea;
+    --header-secondary: #b9bbbe;
+    --channels-default: #8e9297;
+    --interactive-hover: #dcddde;
+    --background-floating: #18191c;
+    --background-modifier-hover: #4f545c29;
+    --background-modifier-active: #4f545c3d;
+    --background-modifier-selected: #4f545c52;
+    --background-modifier-accent: #ffffff0f;
+    --background-message-hover: #2e3034;
+
+    /* Scrollbars */
+    --scrollbar-thin-thumb: #202225;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #1a1b1e;
+    --scrollbar-auto-track: #2b2d31;
+    --scrollbar-auto-scrollbar-color-thumb: #202225;
+    --scrollbar-auto-scrollbar-color-track: #2f3136;
+
+    /* Elevations & Inputs */
+    --elevation-stroke: 0 0 0 1px #04040526;
+    --elevation-low: 0 1px 0 #04040533, 0 1.5px 0 #0606070d, 0 2px 0 #0404050d;
+    --elevation-medium: 0 4px 4px #00000029;
+    --elevation-high: 0 8px 16px #0000003d;
+    --deprecated-card-editable-bg: #2022254d;
+    --deprecated-quickswitcher-input-background: #72767d;
+    --deprecated-quickswitcher-input-placeholder: #ffffff4d;
+    --deprecated-text-input-bg: #0000001a;
+    --deprecated-text-input-border: #0000004d;
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: #202225;
+
+    /* Buttons & Popouts */
+    --button-secondary-background: #4f545c;
+    --button-secondary-background-hover: #72767d;
+    --button-secondary-background-active: #72767d;
+    --primary-transparent: #ffffff1a;
+    --search-popout-option-non-text-color: #caccce;
+    --search-popout-option-filter-color: #caccce;
+    --search-popout-option-answer-color: #caccce;
+    --search-popout-date-picker-hint-text: #caccce;
+    --search-popout-date-picker-hint-value-text: #ffffff;
+}
+
+body {
+    --text-muted: #72767d;
+    --font-primary: "gg sans";
+    --font-display: "gg sans" !important;
+    --font-headline: "gg sans";
+    --blurple: #5867ea;
+    --blurple-inverted: #ffffff;
+    --text-brand: var(--blurple);
+    --bg-brand: var(--blurple);
+    --brand-260: var(--blurple);
+    --brand-360: var(--blurple);
+    --brand-460: var(--blurple);
+    --brand-500: var(--blurple);
+    --brand-new-500: var(--blurple);
+    --brand-530: var(--blurple);
+    --brand-560: var(--blurple);
+    --brand-new-560: var(--blurple);
+    --brand-600: var(--blurple);
+    --yellow-hover: #e19517;
+    --yellow-inverted: #fffbf4;
+    --yellow-inverted-active: #feedd1;
+    --green-inverted: #f6fbf9;
+    --green-inverted-active: #d9f0e6;
+}
