@@ -6,4 +6,5 @@
  * @version 1.1
  */
 
+/* Legacy path kept for existing installs; prefer NewerOldCord.theme.css for BetterDiscord. */
 @import url("https://raw.githubusercontent.com/FrCynda/NewerOldCord/refs/heads/main/src/main.css");
