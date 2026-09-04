@@ -12,7 +12,8 @@
 @import url("https://milbits.github.io/oldcord/src/components/redesign.css");
 @import url("https://milbits.github.io/oldcord/src/components/vars.css");
 
-/* Local modules (single source of truth = QuickCSS v1.1 split) */
+/* Local modules (single source of truth = QuickCSS v1.1 split).
+   Order matters: variables and fonts load before component overrides. */
 @import url("./theme-vars.css");
 @import url("./fonts.css");
 @import url("./chat.css");
