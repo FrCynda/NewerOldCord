@@ -1477,6 +1477,11 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 				.container__3ae56 {
 					background: var(--background-base-lowest);
 					border-radius: var(--radius-xs);
+					.contentContainer__3ae56 {
+						.textContainer__3ae56 [data-text-variant] {
+							text-align: center;
+						}
+					}
 				}
 			}
 			.section__04bc3 {
