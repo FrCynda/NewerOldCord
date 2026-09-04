@@ -1,5 +1,6 @@
 /* ========================================================================
    THEME VARIABLES
+   Dark-mode overrides only; light mode is not supported.
    ======================================================================== */
 .theme-dark:not(html.custom-theme-background, :has(#clientThemeVars)) {
     --message-background-hover: var(--background-message-hover);
