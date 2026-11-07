@@ -6,11 +6,11 @@
  * @version 1.1
  */
 
-/* Upstream OldCord - deliberately only these 3.
+/* OldCord components, vendored locally with the new class names (upstream not yet updated).
    Excluded by choice: color.css, imgs.css, profile.css */
-@import url("https://milbits.github.io/oldcord/src/components/other.css");
-@import url("https://milbits.github.io/oldcord/src/components/redesign.css");
-@import url("https://milbits.github.io/oldcord/src/components/vars.css");
+@import url("./components/other.css");
+@import url("./components/redesign.css");
+@import url("./components/vars.css");
 
 /* Local modules (single source of truth = QuickCSS v1.1 split).
    Order matters: variables and fonts load before component overrides. */
